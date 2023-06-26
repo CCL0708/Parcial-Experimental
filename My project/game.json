@@ -143,7 +143,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.580468749999998,
+        "zoomFactor": 0.9934433498259572,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -187,8 +187,8 @@
           "name": "Platform",
           "persistentUuid": "3355dcdb-4637-427b-a82d-05c607686d48",
           "width": 0,
-          "x": 437,
-          "y": 407,
+          "x": 120,
+          "y": 81,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -202,8 +202,8 @@
           "name": "PlatformWhite",
           "persistentUuid": "b156e74f-6d1d-4d53-a2f6-536343d005ba",
           "width": 0,
-          "x": 889,
-          "y": 1,
+          "x": 671,
+          "y": 356,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -674,6 +674,17 @@
                 "Portal2",
                 "PortalGun.X(\"Bullet\")",
                 "PortalGun.Y(\"Bullet\")",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Portal2",
+                "PortalGun.Angle()",
+                "80",
                 ""
               ]
             }
