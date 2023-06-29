@@ -203,13 +203,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 110,
+          "height": 81,
           "layer": "",
           "name": "PlatformWhite",
           "persistentUuid": "b156e74f-6d1d-4d53-a2f6-536343d005ba",
-          "width": 126,
-          "x": 622,
-          "y": 329,
+          "width": 85,
+          "x": 621,
+          "y": 353,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -256,6 +256,22 @@
           "x": 2,
           "y": 594,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 81,
+          "layer": "",
+          "name": "PlatformWhite",
+          "persistentUuid": "fea46044-9f7a-4ef7-be5d-305b3ef0d949",
+          "width": 85,
+          "x": 276,
+          "y": 311,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -422,7 +438,13 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "NewSprite3",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "PortalPoint",
+                          "x": -20,
+                          "y": 0
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -632,7 +654,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "Portal1Block",
                       "points": [],
                       "originPoint": {
@@ -646,7 +668,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 24,
+                            "y": 17.5
+                          },
+                          {
+                            "x": 40.5,
+                            "y": 17
+                          },
+                          {
+                            "x": 41,
+                            "y": 41.5
+                          },
+                          {
+                            "x": 25,
+                            "y": 42
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -903,6 +944,66 @@
               "parameters": [
                 "Portal1"
               ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Portal1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Portal1Block",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Portal1Block",
+                "PlatformWhite.X(\"PortalPoint\")",
+                "PlatformWhite.Y(\"PortalPoint\")",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Portal1Block",
+                    "Portal2Block",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Portal2Block",
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -930,6 +1031,66 @@
               "parameters": [
                 "Portal2"
               ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Portal2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Portal2Block",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Portal2Block",
+                "PlatformWhite.X(\"PortalPoint\")",
+                "PlatformWhite.Y(\"PortalPoint\")",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Portal2Block",
+                    "Portal1Block",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Portal1Block",
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -957,6 +1118,15 @@
               "parameters": [
                 "Portal2"
               ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Portal2",
+                ""
+              ]
             }
           ]
         },
@@ -983,6 +1153,15 @@
               },
               "parameters": [
                 "Portal1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Portal1",
+                ""
               ]
             }
           ]
