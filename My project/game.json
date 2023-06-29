@@ -163,7 +163,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7876290101673754,
+        "zoomFactor": 0.9296874999999998,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -177,8 +177,8 @@
           "name": "Character",
           "persistentUuid": "1d03eb52-9ac4-4726-a0ae-0630532a7d04",
           "width": 0,
-          "x": 3,
-          "y": 592,
+          "x": 730,
+          "y": 579,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -208,8 +208,8 @@
           "name": "PlatformWhite",
           "persistentUuid": "b156e74f-6d1d-4d53-a2f6-536343d005ba",
           "width": 85,
-          "x": 621,
-          "y": 353,
+          "x": 662,
+          "y": 442,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -223,8 +223,8 @@
           "name": "PlatformWhite",
           "persistentUuid": "c39297e9-1b7a-4d9a-8b56-05fc67741873",
           "width": 0,
-          "x": 1015,
-          "y": 591,
+          "x": 1072,
+          "y": 333,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -253,8 +253,8 @@
           "name": "PortalGun",
           "persistentUuid": "b8f374b5-af05-4b05-ab2c-544de0b1c21f",
           "width": 0,
-          "x": 2,
-          "y": 594,
+          "x": 313,
+          "y": 586,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -268,10 +268,25 @@
           "layer": "",
           "name": "PlatformWhite",
           "persistentUuid": "fea46044-9f7a-4ef7-be5d-305b3ef0d949",
-          "width": 85,
-          "x": 276,
-          "y": 311,
+          "width": 32,
+          "x": 501,
+          "y": 495,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "PlatformWhite",
+          "persistentUuid": "ac3a88c3-8a60-45fb-992c-a15b406daf0b",
+          "width": 0,
+          "x": 239,
+          "y": 442,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -671,20 +686,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 24,
-                            "y": 17.5
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 40.5,
-                            "y": 17
+                            "x": 64,
+                            "y": 0.5
                           },
                           {
-                            "x": 41,
-                            "y": 41.5
+                            "x": 64,
+                            "y": 64
                           },
                           {
-                            "x": 25,
-                            "y": 42
+                            "x": 0,
+                            "y": 64
                           }
                         ]
                       ]
@@ -715,7 +730,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "Portal2Block",
                       "points": [],
                       "originPoint": {
@@ -729,13 +744,43 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
         }
       ],
       "events": [
@@ -970,8 +1015,8 @@
               "parameters": [
                 "",
                 "Portal1Block",
-                "PlatformWhite.X(\"PortalPoint\")",
-                "PlatformWhite.Y(\"PortalPoint\")",
+                "PlatformWhite.X()",
+                "PlatformWhite.Y ()",
                 ""
               ]
             }
@@ -1057,8 +1102,8 @@
               "parameters": [
                 "",
                 "Portal2Block",
-                "PlatformWhite.X(\"PortalPoint\")",
-                "PlatformWhite.Y(\"PortalPoint\")",
+                "PlatformWhite.X()",
+                "PlatformWhite.Y ()",
                 ""
               ]
             }
@@ -1162,6 +1207,37 @@
               "parameters": [
                 "Portal1",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Character",
+                "Portal1Block",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Character",
+                "=",
+                "Portal2Block.CenterX()",
+                "=",
+                "Portal2Block.CenterY()"
               ]
             }
           ]
