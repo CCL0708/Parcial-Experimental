@@ -8,6 +8,8 @@
   },
   "properties": {
     "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
     "folderProject": false,
     "orientation": "landscape",
     "packageName": "com.example.gamename",
@@ -25,7 +27,7 @@
     "windowHeight": 720,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
-    "minFPS": 20,
+    "minFPS": 15,
     "verticalSync": false,
     "platformSpecificAssets": {},
     "loadingScreen": {
@@ -115,6 +117,24 @@
         "name": "Portal3",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Portal1Block.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Portal1Block.png\"}",
+        "name": "Portal1Block",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Portal2Block.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Portal2Block",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -171,8 +191,8 @@
           "layer": "",
           "name": "Platform",
           "persistentUuid": "bbadef4f-8405-40b4-9994-8ea0c0b17d7b",
-          "width": 1274,
-          "x": 3,
+          "width": 1280,
+          "x": 0,
           "y": 657,
           "zOrder": 2,
           "numberProperties": [],
@@ -181,14 +201,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 110,
           "layer": "",
           "name": "PlatformWhite",
           "persistentUuid": "b156e74f-6d1d-4d53-a2f6-536343d005ba",
-          "width": 0,
+          "width": 126,
           "x": 622,
-          "y": 375,
+          "y": 329,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -268,6 +289,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -280,9 +303,7 @@
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
               "maxSpeed": 250,
-              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "xGrabTolerance": 10,
               "yGrabOffset": 0
@@ -331,10 +352,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": false,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -381,10 +402,10 @@
           "effects": [],
           "behaviors": [
             {
-              "canBeGrabbed": true,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -446,8 +467,8 @@
                       "points": [
                         {
                           "name": "Bullet",
-                          "x": 43,
-                          "y": 32
+                          "x": 43.5,
+                          "y": 22.5
                         }
                       ],
                       "originPoint": {
@@ -456,10 +477,10 @@
                         "y": 0
                       },
                       "centerPoint": {
-                        "automatic": true,
+                        "automatic": false,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 30,
+                        "y": 22.5
                       },
                       "customCollisionMask": []
                     }
@@ -489,7 +510,7 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "NewSprite5",
                       "points": [],
                       "originPoint": {
@@ -503,7 +524,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 21.5,
+                            "y": 12
+                          },
+                          {
+                            "x": 43,
+                            "y": 13
+                          },
+                          {
+                            "x": 41,
+                            "y": 45
+                          },
+                          {
+                            "x": 20,
+                            "y": 46.5
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -531,8 +571,111 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "Portal3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 18.5,
+                            "y": 15.5
+                          },
+                          {
+                            "x": 42.5,
+                            "y": 14.5
+                          },
+                          {
+                            "x": 41,
+                            "y": 47.5
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 47.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Portal1Block",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Portal1Block",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Portal1Block",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Portal2Block",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Portal2Block",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "Portal2Block",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -687,14 +830,11 @@
           "conditions": [
             {
               "type": {
-                "value": "Visible"
+                "value": "MouseButtonReleased"
               },
               "parameters": [
-                "Portal1",
                 "",
-                "",
-                "",
-                ""
+                "Left"
               ]
             }
           ],
@@ -705,9 +845,9 @@
               },
               "parameters": [
                 "Portal1",
-                "PortalGun.Angle()",
-                "10000",
-                ""
+                "PortalGun.AngleToPosition(PortalGun.X(\"Bullet\"),PortalGun.Y(\"Bullet\"))",
+                "1000",
+                "1"
               ]
             }
           ]
@@ -717,10 +857,11 @@
           "conditions": [
             {
               "type": {
-                "value": "Visible"
+                "value": "MouseButtonReleased"
               },
               "parameters": [
-                "Portal2"
+                "",
+                "Right"
               ]
             }
           ],
@@ -731,9 +872,9 @@
               },
               "parameters": [
                 "Portal2",
-                "PortalGun.Angle()",
-                "10000",
-                ""
+                "PortalGun.AngleToPosition(PortalGun.X(\"Bullet\"),PortalGun.Y(\"Bullet\"))",
+                "1000",
+                "1"
               ]
             }
           ]
@@ -788,6 +929,60 @@
               },
               "parameters": [
                 "Portal2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Portal2",
+                "Platform",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "Portal2"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Portal1",
+                "Platform",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Arreter"
+              },
+              "parameters": [
+                "Portal1"
               ]
             }
           ]
