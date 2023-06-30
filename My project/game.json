@@ -167,8 +167,26 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite7.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite7.png\"}",
         "name": "NewSprite7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Portal2Block2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Portal2Block2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
         "smoothed": true,
         "userAdded": false
       }
@@ -213,8 +231,8 @@
           "name": "Character",
           "persistentUuid": "1d03eb52-9ac4-4726-a0ae-0630532a7d04",
           "width": 0,
-          "x": 642,
-          "y": 106,
+          "x": 24,
+          "y": 595,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -240,88 +258,12 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "PlatformWhite",
-          "persistentUuid": "c39297e9-1b7a-4d9a-8b56-05fc67741873",
-          "width": 0,
-          "x": 1024,
-          "y": 69,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 103,
-          "layer": "",
-          "name": "Platform",
-          "persistentUuid": "38f6aba7-5a39-4d74-befd-f99515a3418f",
-          "width": 215,
-          "x": 476,
-          "y": 192,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
           "name": "PortalGun",
           "persistentUuid": "b8f374b5-af05-4b05-ab2c-544de0b1c21f",
           "width": 0,
           "x": 313,
           "y": 586,
           "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "PlatformWhite",
-          "persistentUuid": "83ed2ace-7bd2-4f50-a576-29cbaa74d87c",
-          "width": 0,
-          "x": 1042,
-          "y": 385,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "PlatformWhite",
-          "persistentUuid": "cacb77b3-e1c7-4067-a19b-8da35b0f28e4",
-          "width": 0,
-          "x": 745,
-          "y": 540,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Portal1Block",
-          "persistentUuid": "13a4bdfc-059c-4b31-8340-4893eabdc6df",
-          "width": 0,
-          "x": 681,
-          "y": 117,
-          "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -367,8 +309,8 @@
           "name": "Platform",
           "persistentUuid": "d5da0294-aaec-44de-a410-1727d74f2bde",
           "width": 1334,
-          "x": -11,
-          "y": -163,
+          "x": -17,
+          "y": -42,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -383,7 +325,7 @@
           "name": "Platform",
           "persistentUuid": "7f153ef1-5c5a-4b02-b8f2-a781bdcf6cda",
           "width": 64,
-          "x": 1270,
+          "x": 1265,
           "y": -86,
           "zOrder": 13,
           "numberProperties": [],
@@ -396,11 +338,136 @@
           "height": 0,
           "layer": "",
           "name": "PlatformWhite",
-          "persistentUuid": "ca81ee2d-6820-4301-af28-1442e2477d5f",
+          "persistentUuid": "b790df28-44db-4bf7-9f0c-6866709834f4",
           "width": 0,
-          "x": 319,
-          "y": 508,
+          "x": 833,
+          "y": 593,
           "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 208,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "PlatformWhite",
+          "persistentUuid": "92420ba6-92cd-4864-b775-33e85573f5aa",
+          "width": 0,
+          "x": 606,
+          "y": 77,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "28734142-e362-4ee3-b7db-934967492ebd",
+          "width": 78,
+          "x": 833,
+          "y": 532,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "e17964f4-95f7-4356-9896-ed652b70dde5",
+          "width": 56,
+          "x": 855,
+          "y": 594,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 154,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "d9c70e82-7645-4244-a978-b67e4ccac723",
+          "width": 77,
+          "x": 572,
+          "y": -2,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 84,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "33c583cf-d341-44d2-879c-23b96518cd1c",
+          "width": 72,
+          "x": 612,
+          "y": 10,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 30,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "493a52d9-282f-4d76-bc89-64163efd0df3",
+          "width": 0,
+          "x": 590,
+          "y": 66,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Gnaste",
+          "persistentUuid": "9120dee0-3779-4e10-9c10-378c3c01f16c",
+          "width": 0,
+          "x": 1172,
+          "y": 587,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "71fce0eb-f72c-4635-85f5-820378b85f39",
+          "width": 117,
+          "x": 1162,
+          "y": 519,
+          "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -456,13 +523,13 @@
               "shape": "Box",
               "shapeDimensionA": 25,
               "shapeDimensionB": 32,
-              "shapeOffsetX": -2,
-              "shapeOffsetY": 3,
+              "shapeOffsetX": -1,
+              "shapeOffsetY": 7,
               "polygonOrigin": "Center",
               "vertices": [],
               "density": 1,
               "friction": 0.4,
-              "restitution": 0.1,
+              "restitution": 0,
               "linearDamping": 0.4,
               "angularDamping": 0.4,
               "gravityScale": 1,
@@ -513,11 +580,11 @@
                           },
                           {
                             "x": 48,
-                            "y": 56
+                            "y": 59.5
                           },
                           {
                             "x": 15,
-                            "y": 56
+                            "y": 59.5
                           }
                         ]
                       ]
@@ -553,7 +620,7 @@
               "vertices": [],
               "density": 1,
               "friction": 0.3,
-              "restitution": 0.1,
+              "restitution": 0,
               "linearDamping": 0.1,
               "angularDamping": 0.1,
               "gravityScale": 1,
@@ -893,16 +960,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 28,
+                            "y": 22
                           },
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 28.5,
+                            "y": 41.5
                           },
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 37.5,
+                            "y": 37.5
+                          },
+                          {
+                            "x": 35,
+                            "y": 20
                           }
                         ]
                       ]
@@ -934,7 +1005,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Portal2Block",
+                      "image": "Portal2Block2",
                       "points": [
                         {
                           "name": "Spawn",
@@ -956,20 +1027,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 31,
+                            "y": 18.5
                           },
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 28,
+                            "y": 37.5
                           },
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 38.5,
+                            "y": 35.5
                           },
                           {
-                            "x": 0,
-                            "y": 0
+                            "x": 37,
+                            "y": 21
                           }
                         ]
                       ]
@@ -1024,23 +1095,65 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 30.5,
-                            "y": 31.5
+                            "x": 1.5,
+                            "y": 1.5
                           },
                           {
-                            "x": 32.5,
-                            "y": 31
+                            "x": 0,
+                            "y": 1.5
                           },
                           {
-                            "x": 32.5,
-                            "y": 33.5
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 30.5,
-                            "y": 33.5
+                            "x": 1.5,
+                            "y": 0
                           }
                         ]
                       ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Gnaste",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
                     }
                   ]
                 }
@@ -1272,7 +1385,7 @@
                 "Character",
                 "Physics2",
                 "=",
-                "-500"
+                "-300"
               ]
             }
           ]
@@ -1526,6 +1639,17 @@
                 "PlatformWhite.Y ()",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardAngle"
+              },
+              "parameters": [
+                "Portal1Block",
+                "PlatformWhite.Angle()",
+                "0",
+                ""
+              ]
             }
           ],
           "events": [
@@ -1603,6 +1727,17 @@
                 "Portal2Block",
                 "PlatformWhite.X()",
                 "PlatformWhite.Y ()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardAngle"
+              },
+              "parameters": [
+                "Portal2Block",
+                "PlatformWhite.Angle()",
+                "0",
                 ""
               ]
             }
@@ -1811,7 +1946,7 @@
                   "parameters": [
                     "Character",
                     "Physics2",
-                    "Portal2Block.AngleToPosition(Portal2Block.Y(\"Centre\"),Portal2Block.X(\"Spawn\"))",
+                    "Portal2Block.AngleToPosition(Portal2Block.X(\"Spawn\"),Portal2Block.Y(\"Spawn\"))",
                     "Character.Variable(MomentumX)+Character.Variable(MomentumY)/10",
                     "",
                     ""
@@ -1954,8 +2089,8 @@
                   "parameters": [
                     "Character",
                     "Physics2",
-                    "Portal1Block.AngleToPosition(Portal1Block.Y(\"Centre\"),Portal1Block.X(\"Spawn\"))",
-                    "Character.Variable(MomentumX)+Character.Variable(MomentumY)/10",
+                    "Portal1Block.AngleToPosition(Portal1Block.X(\"Spawn\"),Portal1Block.Y(\"Spawn\"))",
+                    "Character.Variable(MomentumX)+Character.Variable(MomentumY)-60",
                     "",
                     ""
                   ]
@@ -2020,6 +2155,24 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Character",
+                "Gnaste",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": []
         }
       ],
       "layers": [
