@@ -25,7 +25,7 @@
     "author": "",
     "windowWidth": 1280,
     "windowHeight": 720,
-    "latestCompilationDirectory": "",
+    "latestCompilationDirectory": "C:\\Users\\Ciro\\Documents\\GDevelop projects\\Exports\\Export Experimental",
     "maxFPS": 60,
     "minFPS": 15,
     "verticalSync": false,
@@ -95,7 +95,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite4.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite4.png\"}",
         "name": "NewSprite4",
         "smoothed": true,
         "userAdded": true
@@ -187,6 +187,24 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
         "smoothed": true,
         "userAdded": false
       }
@@ -595,7 +613,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite",
+                      "image": "NewSprite10",
                       "points": [
                         {
                           "name": "FloorCheck",
@@ -818,8 +836,8 @@
                       "points": [
                         {
                           "name": "Bullet",
-                          "x": 43.5,
-                          "y": 22.5
+                          "x": 49,
+                          "y": 21.5
                         }
                       ],
                       "originPoint": {
@@ -830,8 +848,8 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 30,
-                        "y": 22.5
+                        "x": 31,
+                        "y": 21.5
                       },
                       "customCollisionMask": []
                     }
@@ -1229,6 +1247,36 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "PortalGun",
+                "=",
+                "Character.PointX(\"Origin\")",
+                "=",
+                "Character.PointY(\"Center\")- 50"
+              ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "PortalGun",
+                "MouseX()",
+                "MouseY()",
+                "0",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -1396,6 +1444,61 @@
           "conditions": [
             {
               "type": {
+                "value": "FlippedX"
+              },
+              "parameters": [
+                "Character"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "PortalGun",
+                "=",
+                "Character.PointX(\"Origin\")-64",
+                "=",
+                "Character.PointY(\"Center\")-50"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "FlippedX"
+              },
+              "parameters": [
+                "Character"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "PortalGun",
+                "=",
+                "Character.PointX(\"Origin\")",
+                "=",
+                "Character.PointY(\"Center\")-50"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "KeyPressed"
               },
               "parameters": [
@@ -1477,36 +1580,6 @@
                 "Physics2",
                 "=",
                 "-500"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "PortalGun",
-                "=",
-                "Character.PointX(\"Center\")",
-                "=",
-                "Character.PointY(\"Center\")- 45"
-              ]
-            },
-            {
-              "type": {
-                "value": "RotateTowardPosition"
-              },
-              "parameters": [
-                "PortalGun",
-                "MouseX()",
-                "MouseY()",
-                "0",
-                ""
               ]
             }
           ]
@@ -2218,7 +2291,18 @@
               ]
             }
           ],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -2301,7 +2385,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9296874999999998,
+        "zoomFactor": 1.212164197217367,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2633,7 +2717,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite",
+                      "image": "NewSprite9",
                       "points": [
                         {
                           "name": "FloorCheck",
@@ -2856,8 +2940,8 @@
                       "points": [
                         {
                           "name": "Bullet",
-                          "x": 43.5,
-                          "y": 22.5
+                          "x": 49,
+                          "y": 21.5
                         }
                       ],
                       "originPoint": {
@@ -2868,8 +2952,8 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 30,
-                        "y": 22.5
+                        "x": 31,
+                        "y": 21.5
                       },
                       "customCollisionMask": []
                     }
@@ -3267,6 +3351,36 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "PortalGun",
+                "=",
+                "Character.PointX(\"Origin\")",
+                "=",
+                "Character.PointY(\"Center\")-50"
+              ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "PortalGun",
+                "MouseX()",
+                "MouseY()",
+                "0",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -3434,6 +3548,61 @@
           "conditions": [
             {
               "type": {
+                "value": "FlippedX"
+              },
+              "parameters": [
+                "Character"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "PortalGun",
+                "=",
+                "Character.PointX(\"Origin\")-64",
+                "=",
+                "Character.PointY(\"Center\")-50"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "FlippedX"
+              },
+              "parameters": [
+                "Character"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "PortalGun",
+                "=",
+                "Character.PointX(\"Origin\")",
+                "=",
+                "Character.PointY(\"Center\")-50"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "KeyPressed"
               },
               "parameters": [
@@ -3515,36 +3684,6 @@
                 "Physics2",
                 "=",
                 "-500"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "PortalGun",
-                "=",
-                "Character.PointX(\"Center\")",
-                "=",
-                "Character.PointY(\"Center\")- 45"
-              ]
-            },
-            {
-              "type": {
-                "value": "RotateTowardPosition"
-              },
-              "parameters": [
-                "PortalGun",
-                "MouseX()",
-                "MouseY()",
-                "0",
-                ""
               ]
             }
           ]
@@ -4030,7 +4169,7 @@
                   "parameters": [
                     "Character",
                     "Physics2",
-                    "Portal2Block.Angle()\n",
+                    "Portal2Block.Angle()-180\n",
                     "Character.Variable(MomentumX)+Character.Variable(MomentumY)/10",
                     "",
                     ""
@@ -4173,7 +4312,7 @@
                   "parameters": [
                     "Character",
                     "Physics2",
-                    "Portal1Block.Angle()\n",
+                    "Portal1Block.Angle()-180\n",
                     "Character.Variable(MomentumX)+Character.Variable(MomentumY)-60",
                     "",
                     ""
@@ -4392,24 +4531,89 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Escena_32sin_32t_237tulo",
-      "name": "Escena sin título",
+      "mangledName": "Fin",
+      "name": "Fin",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
       "title": "",
       "v": 209,
-      "uiSettings": {},
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.814188120370991,
+        "windowMask": false
+      },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 61,
+          "layer": "",
+          "name": "Fin",
+          "persistentUuid": "b4af04ad-14df-40ed-b565-34dd10d9bc4d",
+          "width": 318,
+          "x": 470,
+          "y": 241,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "Fin",
+          "tags": "",
+          "type": "TextInput::TextInputObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "initialValue": "Gnaste!!11!1!!1!",
+            "placeholder": "",
+            "fontResourceName": "",
+            "fontSize": 44,
+            "inputType": "text",
+            "textColor": "0;0;0",
+            "fillColor": "255;255;255",
+            "fillOpacity": 255,
+            "borderColor": "0;0;0",
+            "borderOpacity": 255,
+            "borderWidth": 1,
+            "readOnly": false,
+            "disabled": false
+          }
+        }
+      ],
       "events": [],
       "layers": [
         {
-          "ambientLightColorB": 262144,
-          "ambientLightColorG": 0,
-          "ambientLightColorR": 8257080,
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 0.1,
