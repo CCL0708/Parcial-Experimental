@@ -135,6 +135,42 @@
         "name": "Portal2Block",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "New image",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\NewSprite.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -177,8 +213,8 @@
           "name": "Character",
           "persistentUuid": "1d03eb52-9ac4-4726-a0ae-0630532a7d04",
           "width": 0,
-          "x": 730,
-          "y": 579,
+          "x": 642,
+          "y": 106,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -201,30 +237,14 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 81,
-          "layer": "",
-          "name": "PlatformWhite",
-          "persistentUuid": "b156e74f-6d1d-4d53-a2f6-536343d005ba",
-          "width": 85,
-          "x": 662,
-          "y": 442,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "layer": "",
           "name": "PlatformWhite",
           "persistentUuid": "c39297e9-1b7a-4d9a-8b56-05fc67741873",
           "width": 0,
-          "x": 1072,
-          "y": 333,
+          "x": 1024,
+          "y": 69,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -233,13 +253,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 24,
+          "depth": 0,
+          "height": 103,
           "layer": "",
           "name": "Platform",
           "persistentUuid": "38f6aba7-5a39-4d74-befd-f99515a3418f",
-          "width": 190,
-          "x": 981,
-          "y": 65,
+          "width": 215,
+          "x": 476,
+          "y": 192,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -261,17 +282,16 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 81,
+          "angle": 180,
+          "customSize": false,
+          "height": 0,
           "layer": "",
           "name": "PlatformWhite",
-          "persistentUuid": "fea46044-9f7a-4ef7-be5d-305b3ef0d949",
-          "width": 32,
-          "x": 501,
-          "y": 495,
-          "zOrder": 4,
+          "persistentUuid": "83ed2ace-7bd2-4f50-a576-29cbaa74d87c",
+          "width": 0,
+          "x": 1042,
+          "y": 385,
+          "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -282,11 +302,105 @@
           "height": 0,
           "layer": "",
           "name": "PlatformWhite",
-          "persistentUuid": "ac3a88c3-8a60-45fb-992c-a15b406daf0b",
+          "persistentUuid": "cacb77b3-e1c7-4067-a19b-8da35b0f28e4",
           "width": 0,
-          "x": 239,
-          "y": 442,
-          "zOrder": 8,
+          "x": 745,
+          "y": 540,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Portal1Block",
+          "persistentUuid": "13a4bdfc-059c-4b31-8340-4893eabdc6df",
+          "width": 0,
+          "x": 681,
+          "y": 117,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 5,
+          "layer": "",
+          "name": "FloorCheck",
+          "persistentUuid": "d13436fa-fc52-424c-b49a-b963798ff5b3",
+          "width": 6,
+          "x": 640,
+          "y": 170,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 762,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "acf78362-5818-4b1b-a232-19e48f683e15",
+          "width": 64,
+          "x": -45,
+          "y": -90,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "d5da0294-aaec-44de-a410-1727d74f2bde",
+          "width": 1334,
+          "x": -11,
+          "y": -163,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 745,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "7f153ef1-5c5a-4b02-b8f2-a781bdcf6cda",
+          "width": 64,
+          "x": 1270,
+          "y": -86,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "PlatformWhite",
+          "persistentUuid": "ca81ee2d-6820-4301-af28-1442e2477d5f",
+          "width": 0,
+          "x": 319,
+          "y": 508,
+          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -316,28 +430,44 @@
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "MomentumX",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "folded": true,
+              "name": "MomentumY",
+              "type": "number",
+              "value": 1
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "acceleration": 1500,
-              "canGoDownFromJumpthru": true,
-              "canGrabPlatforms": false,
-              "canGrabWithoutMoving": true,
-              "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": false,
-              "jumpSpeed": 600,
-              "jumpSustainTime": 0.2,
-              "ladderClimbingSpeed": 150,
-              "maxFallingSpeed": 700,
-              "maxSpeed": 250,
-              "slopeMaxAngle": 60,
-              "useLegacyTrajectory": false,
-              "xGrabTolerance": 10,
-              "yGrabOffset": 0
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": true,
+              "fixedRotation": true,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 25,
+              "shapeDimensionB": 32,
+              "shapeOffsetX": -2,
+              "shapeOffsetY": 3,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.4,
+              "restitution": 0.1,
+              "linearDamping": 0.4,
+              "angularDamping": 0.4,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
             }
           ],
           "animations": [
@@ -351,9 +481,15 @@
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
-                      "hasCustomCollisionMask": false,
+                      "hasCustomCollisionMask": true,
                       "image": "NewSprite",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "FloorCheck",
+                          "x": 32,
+                          "y": 59
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -365,7 +501,26 @@
                         "x": 0,
                         "y": 0
                       },
-                      "customCollisionMask": []
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 15,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 48,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 48,
+                            "y": 56
+                          },
+                          {
+                            "x": 15,
+                            "y": 56
+                          }
+                        ]
+                      ]
                     }
                   ]
                 }
@@ -383,10 +538,33 @@
           "effects": [],
           "behaviors": [
             {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            },
+            {
               "canBeGrabbed": false,
+              "name": "Platform",
               "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
               "yGrabOffset": 0
             }
           ],
@@ -433,10 +611,33 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            },
+            {
+              "canBeGrabbed": false,
               "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
               "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
               "yGrabOffset": 0
             }
           ],
@@ -671,7 +872,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Portal1Block",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Spawn",
+                          "x": -80,
+                          "y": 0
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -680,8 +887,8 @@
                       "centerPoint": {
                         "automatic": true,
                         "name": "centre",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 10.5
                       },
                       "customCollisionMask": [
                         [
@@ -690,16 +897,12 @@
                             "y": 0
                           },
                           {
-                            "x": 64,
-                            "y": 0.5
-                          },
-                          {
-                            "x": 64,
-                            "y": 64
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 64
+                            "y": 0
                           }
                         ]
                       ]
@@ -732,7 +935,13 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "Portal2Block",
-                      "points": [],
+                      "points": [
+                        {
+                          "name": "Spawn",
+                          "x": -80,
+                          "y": 0
+                        }
+                      ],
                       "originPoint": {
                         "name": "origine",
                         "x": 0,
@@ -751,16 +960,16 @@
                             "y": 0
                           },
                           {
-                            "x": 64,
+                            "x": 0,
                             "y": 0
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 0,
+                            "y": 0
                           },
                           {
                             "x": 0,
-                            "y": 64
+                            "y": 0
                           }
                         ]
                       ]
@@ -773,36 +982,342 @@
         },
         {
           "assetStoreId": "",
-          "name": "NewSprite",
+          "name": "FloorCheck",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "CD",
+              "type": "boolean",
+              "value": false
+            }
+          ],
           "effects": [],
           "behaviors": [],
-          "animations": []
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 30.5,
+                            "y": 31.5
+                          },
+                          {
+                            "x": 32.5,
+                            "y": 31
+                          },
+                          {
+                            "x": 32.5,
+                            "y": 33.5
+                          },
+                          {
+                            "x": 30.5,
+                            "y": 33.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "FloorCheck",
+                "=",
+                "Character.PointX(\"FloorCheck\")",
+                "=",
+                "Character.PointY(\"FloorCheck\")"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "value": "DepartScene"
+                "value": "ObjectVariableAsBoolean"
               },
               "parameters": [
-                ""
+                "FloorCheck",
+                "CD",
+                "True"
               ]
             }
           ],
           "actions": [
             {
               "type": {
-                "value": "PlayerAuthentication::DisplayAuthenticationBanner"
+                "value": "Delete"
               },
               "parameters": [
+                "FloorCheck",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "d"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::ApplyForce"
+              },
+              "parameters": [
+                "Character",
+                "Physics2",
+                "1",
+                "0",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "FlipX"
+              },
+              "parameters": [
+                "Character",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Physics2",
+                    ">=",
+                    "150"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Physics2",
+                    "=",
+                    "150"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "a"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::ApplyForce"
+              },
+              "parameters": [
+                "Character",
+                "Physics2",
+                "-1",
+                "0",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "FlipX"
+              },
+              "parameters": [
+                "Character",
+                "yes"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Physics2",
+                    "<=",
+                    "-150"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Physics2",
+                    "=",
+                    "-150"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Space"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "FloorCheck",
+                "Platform",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityY"
+              },
+              "parameters": [
+                "Character",
+                "Physics2",
+                "=",
+                "-500"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Space"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "FloorCheck",
+                "PlatformWhite",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityY"
+              },
+              "parameters": [
+                "Character",
+                "Physics2",
+                "=",
+                "-500"
               ]
             }
           ]
@@ -984,14 +1499,6 @@
           "actions": [
             {
               "type": {
-                "value": "Arreter"
-              },
-              "parameters": [
-                "Portal1"
-              ]
-            },
-            {
-              "type": {
                 "value": "Delete"
               },
               "parameters": [
@@ -1071,14 +1578,6 @@
           "actions": [
             {
               "type": {
-                "value": "Arreter"
-              },
-              "parameters": [
-                "Portal2"
-              ]
-            },
-            {
-              "type": {
                 "value": "Delete"
               },
               "parameters": [
@@ -1158,14 +1657,6 @@
           "actions": [
             {
               "type": {
-                "value": "Arreter"
-              },
-              "parameters": [
-                "Portal2"
-              ]
-            },
-            {
-              "type": {
                 "value": "Delete"
               },
               "parameters": [
@@ -1192,14 +1683,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "Arreter"
-              },
-              "parameters": [
-                "Portal1"
-              ]
-            },
             {
               "type": {
                 "value": "Delete"
@@ -1261,9 +1744,77 @@
                   "parameters": [
                     "Character",
                     "=",
-                    "Portal2Block.CenterX()",
+                    "Portal2Block.PointX(\"Spawn\")",
                     "=",
-                    "Portal2Block.CenterY()"
+                    "Portal2Block.PointY(\"Origin\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Character",
+                    "MomentumX",
+                    "=",
+                    "Character.Physics2::LinearVelocityX()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Character",
+                    "MomentumY",
+                    "=",
+                    "Character.Physics2::LinearVelocityY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Physics2",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityY"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Physics2",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::AngularVelocity"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Physics2",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::ApplyPolarForce"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Physics2",
+                    "Portal2Block.AngleToPosition(Portal2Block.Y(\"Centre\"),Portal2Block.X(\"Spawn\"))",
+                    "Character.Variable(MomentumX)+Character.Variable(MomentumY)/10",
+                    "",
+                    ""
                   ]
                 },
                 {
@@ -1276,10 +1827,20 @@
                 },
                 {
                   "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "FloorCheck",
+                    "CD",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Wait"
                   },
                   "parameters": [
-                    "0.2"
+                    "0.3"
                   ]
                 },
                 {
@@ -1290,8 +1851,42 @@
                     "Portal1Block",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "FloorCheck",
+                    "CD",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "FloorCheck",
+                    "Character.PointX(\"FloorCheck\")",
+                    "Character.PointY(\"FloorCheck\")",
+                    ""
+                  ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "{\"000kind\":\"GDEVELOP_EventsAndInstructions_CLIPBOARD_KIND-jsBdHbLy912y8Rc\",\"content\":{\"eventsList\":[],\"eventsCount\":0,\"actionsList\":[{\"type\":{\"value\":\"Physics2::ApplyPolarImpulse\"},\"parameters\":[\"Character\",\"Physics2\",\"Character.Variable(MomentumX)+Character.Variable(MomentumY)\",\"Character.Variable(MomentumX)+Character.Variable(MomentumY)\",\"Character.Physics2::Mass()\",\"Character.Physics2::Mass()\"]}],\"actionsCount\":1,\"conditionsList\":[],\"conditionsCount\":0}}\n\n{\"000kind\":\"GDEVELOP_EventsAndInstructions_CLIPBOARD_KIND-jsBdHbLy912y8Rc\",\"content\":{\"eventsList\":[],\"eventsCount\":0,\"actionsList\":[{\"type\":{\"value\":\"Physics2::ApplyPolarImpulse\"},\"parameters\":[\"Character\",\"Physics2\",\"Character.Variable(MomentumX)+Character.Variable(MomentumY)\",\"Character.Variable(MomentumX)+Character.Variable(MomentumY)\",\"Character.Physics2::Mass()\",\"Character.Physics2::Mass()\"]}],\"actionsCount\":1,\"conditionsList\":[],\"conditionsCount\":0}}"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -1325,9 +1920,44 @@
                   "parameters": [
                     "Character",
                     "=",
-                    "Portal1Block.CenterX()",
+                    "Portal1Block.PointX(\"Spawn\")",
                     "=",
-                    "Portal1Block.CenterY()"
+                    "Portal1Block.PointY(\"Origin\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Character",
+                    "MomentumX",
+                    "=",
+                    "Character.Physics2::LinearVelocityX()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Character",
+                    "MomentumY",
+                    "=",
+                    "Character.Physics2::LinearVelocityY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::ApplyPolarForce"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Physics2",
+                    "Portal1Block.AngleToPosition(Portal1Block.Y(\"Centre\"),Portal1Block.X(\"Spawn\"))",
+                    "Character.Variable(MomentumX)+Character.Variable(MomentumY)/10",
+                    "",
+                    ""
                   ]
                 },
                 {
@@ -1340,10 +1970,42 @@
                 },
                 {
                   "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "FloorCheck",
+                    "CD",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Wait"
                   },
                   "parameters": [
-                    "0.2"
+                    "0.3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "FloorCheck",
+                    "CD",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "FloorCheck",
+                    "Character.PointX(\"FloorCheck\")",
+                    "Character.PointY(\"FloorCheck\")",
+                    ""
                   ]
                 },
                 {
@@ -1407,12 +2069,16 @@
       ],
       "behaviorsSharedData": [
         {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior"
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "gravityX": 0,
+          "gravityY": 9.8,
+          "scaleX": 100,
+          "scaleY": 100
         },
         {
-          "name": "PlatformerObject",
-          "type": "PlatformBehavior::PlatformerObjectBehavior"
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
         }
       ]
     },
