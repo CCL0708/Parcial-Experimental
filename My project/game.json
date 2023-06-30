@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Nivel",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -200,8 +200,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Nivel",
-      "name": "Nivel",
+      "mangledName": "Nivel2",
+      "name": "Nivel2",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -217,7 +217,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9296874999999998,
+        "zoomFactor": 0.8416428125373103,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -261,7 +261,7 @@
           "name": "PortalGun",
           "persistentUuid": "b8f374b5-af05-4b05-ab2c-544de0b1c21f",
           "width": 0,
-          "x": 313,
+          "x": 32,
           "y": 586,
           "zOrder": 7,
           "numberProperties": [],
@@ -325,7 +325,7 @@
           "name": "Platform",
           "persistentUuid": "7f153ef1-5c5a-4b02-b8f2-a781bdcf6cda",
           "width": 64,
-          "x": 1265,
+          "x": 1221,
           "y": -86,
           "zOrder": 13,
           "numberProperties": [],
@@ -340,7 +340,7 @@
           "name": "PlatformWhite",
           "persistentUuid": "b790df28-44db-4bf7-9f0c-6866709834f4",
           "width": 0,
-          "x": 833,
+          "x": 300,
           "y": 593,
           "zOrder": 15,
           "numberProperties": [],
@@ -348,15 +348,15 @@
           "initialVariables": []
         },
         {
-          "angle": 208,
+          "angle": 180,
           "customSize": false,
           "height": 0,
           "layer": "",
           "name": "PlatformWhite",
           "persistentUuid": "92420ba6-92cd-4864-b775-33e85573f5aa",
           "width": 0,
-          "x": 606,
-          "y": 77,
+          "x": 119,
+          "y": 282,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -370,9 +370,9 @@
           "layer": "",
           "name": "Platform",
           "persistentUuid": "28734142-e362-4ee3-b7db-934967492ebd",
-          "width": 78,
-          "x": 833,
-          "y": 532,
+          "width": 151,
+          "x": 17,
+          "y": 400,
           "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
@@ -382,13 +382,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 64,
+          "height": 192,
           "layer": "",
           "name": "Platform",
           "persistentUuid": "e17964f4-95f7-4356-9896-ed652b70dde5",
-          "width": 56,
-          "x": 855,
-          "y": 594,
+          "width": 121,
+          "x": 321,
+          "y": 466,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -398,45 +398,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 0,
-          "height": 154,
-          "layer": "",
-          "name": "Platform",
-          "persistentUuid": "d9c70e82-7645-4244-a978-b67e4ccac723",
-          "width": 77,
-          "x": 572,
-          "y": -2,
-          "zOrder": 17,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 84,
+          "height": 123,
           "layer": "",
           "name": "Platform",
           "persistentUuid": "33c583cf-d341-44d2-879c-23b96518cd1c",
           "width": 72,
-          "x": 612,
-          "y": 10,
+          "x": 97,
+          "y": 280,
           "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 30,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Platform",
-          "persistentUuid": "493a52d9-282f-4d76-bc89-64163efd0df3",
-          "width": 0,
-          "x": 590,
-          "y": 66,
-          "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -449,8 +418,8 @@
           "name": "Gnaste",
           "persistentUuid": "9120dee0-3779-4e10-9c10-378c3c01f16c",
           "width": 0,
-          "x": 1172,
-          "y": 587,
+          "x": 20,
+          "y": 335,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -465,9 +434,86 @@
           "name": "Platform",
           "persistentUuid": "71fce0eb-f72c-4635-85f5-820378b85f39",
           "width": 117,
-          "x": 1162,
-          "y": 519,
+          "x": 1004,
+          "y": 279,
           "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "3eb58fc7-ff72-4491-aa48-2268a10fa148",
+          "width": 238,
+          "x": 204,
+          "y": 405,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "PlatformWhite",
+          "persistentUuid": "169ad025-ea49-483c-989d-e24fb097dea5",
+          "width": 0,
+          "x": -27,
+          "y": 148,
+          "zOrder": -2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "PlatformWhite",
+          "persistentUuid": "9b3a4575-24e4-470d-8c01-11cadd7918f1",
+          "width": 0,
+          "x": 1195,
+          "y": 63,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 176,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "PlatformWhite",
+          "persistentUuid": "c267b289-66a6-4f61-a0ba-f86d935c9e30",
+          "width": 0,
+          "x": 574,
+          "y": 581,
+          "zOrder": -6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 192,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "2744e12b-c0e6-49fe-9a2e-f9e7b3096b81",
+          "width": 180,
+          "x": 441,
+          "y": 469,
+          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -517,7 +563,7 @@
               "name": "Physics2",
               "type": "Physics2::Physics2Behavior",
               "bodyType": "Dynamic",
-              "bullet": true,
+              "bullet": false,
               "fixedRotation": true,
               "canSleep": true,
               "shape": "Box",
@@ -628,10 +674,10 @@
               "masks": 1
             },
             {
-              "canBeGrabbed": false,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -701,10 +747,10 @@
               "masks": 1
             },
             {
-              "canBeGrabbed": false,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -832,20 +878,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 21.5,
-                            "y": 12
+                            "x": 25,
+                            "y": 12.5
                           },
                           {
-                            "x": 43,
+                            "x": 38,
                             "y": 13
                           },
                           {
-                            "x": 41,
-                            "y": 45
+                            "x": 37.5,
+                            "y": 43
                           },
                           {
-                            "x": 20,
-                            "y": 46.5
+                            "x": 24,
+                            "y": 43
                           }
                         ]
                       ]
@@ -893,20 +939,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 18.5,
-                            "y": 15.5
+                            "x": 20,
+                            "y": 17
                           },
                           {
-                            "x": 42.5,
-                            "y": 14.5
+                            "x": 39,
+                            "y": 16
                           },
                           {
-                            "x": 41,
-                            "y": 47.5
+                            "x": 39,
+                            "y": 45.5
                           },
                           {
-                            "x": 18.5,
-                            "y": 47.5
+                            "x": 22.5,
+                            "y": 45
                           }
                         ]
                       ]
@@ -943,7 +989,7 @@
                         {
                           "name": "Spawn",
                           "x": -80,
-                          "y": 0
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -1010,7 +1056,7 @@
                         {
                           "name": "Spawn",
                           "x": -80,
-                          "y": 0
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -1881,7 +1927,7 @@
                     "=",
                     "Portal2Block.PointX(\"Spawn\")",
                     "=",
-                    "Portal2Block.PointY(\"Origin\")"
+                    "Portal2Block.PointY(\"Spawn\")"
                   ]
                 },
                 {
@@ -1946,7 +1992,7 @@
                   "parameters": [
                     "Character",
                     "Physics2",
-                    "Portal2Block.AngleToPosition(Portal2Block.X(\"Spawn\"),Portal2Block.Y(\"Spawn\"))",
+                    "Portal2Block.Angle()-180\n",
                     "Character.Variable(MomentumX)+Character.Variable(MomentumY)/10",
                     "",
                     ""
@@ -2057,7 +2103,7 @@
                     "=",
                     "Portal1Block.PointX(\"Spawn\")",
                     "=",
-                    "Portal1Block.PointY(\"Origin\")"
+                    "Portal1Block.PointY(\"Spawn\")"
                   ]
                 },
                 {
@@ -2089,7 +2135,7 @@
                   "parameters": [
                     "Character",
                     "Physics2",
-                    "Portal1Block.AngleToPosition(Portal1Block.X(\"Spawn\"),Portal1Block.Y(\"Spawn\"))",
+                    "Portal1Block.Angle()-180\n",
                     "Character.Variable(MomentumX)+Character.Variable(MomentumY)-60",
                     "",
                     ""
@@ -2173,6 +2219,2055 @@
             }
           ],
           "actions": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 8042920,
+          "ambientLightColorR": 16,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Cooldown",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "gravityX": 0,
+          "gravityY": 9.8,
+          "scaleX": 100,
+          "scaleY": 100
+        },
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Nivel",
+      "name": "Nivel",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.9296874999999998,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Character",
+          "persistentUuid": "1d03eb52-9ac4-4726-a0ae-0630532a7d04",
+          "width": 0,
+          "x": 24,
+          "y": 595,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "bbadef4f-8405-40b4-9994-8ea0c0b17d7b",
+          "width": 1280,
+          "x": 0,
+          "y": 657,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "PortalGun",
+          "persistentUuid": "b8f374b5-af05-4b05-ab2c-544de0b1c21f",
+          "width": 0,
+          "x": 313,
+          "y": 586,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 5,
+          "layer": "",
+          "name": "FloorCheck",
+          "persistentUuid": "d13436fa-fc52-424c-b49a-b963798ff5b3",
+          "width": 6,
+          "x": 640,
+          "y": 170,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 762,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "acf78362-5818-4b1b-a232-19e48f683e15",
+          "width": 64,
+          "x": -45,
+          "y": -90,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "d5da0294-aaec-44de-a410-1727d74f2bde",
+          "width": 1334,
+          "x": -17,
+          "y": -42,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 745,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "7f153ef1-5c5a-4b02-b8f2-a781bdcf6cda",
+          "width": 64,
+          "x": 1265,
+          "y": -86,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "PlatformWhite",
+          "persistentUuid": "b790df28-44db-4bf7-9f0c-6866709834f4",
+          "width": 0,
+          "x": 833,
+          "y": 593,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 208,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "PlatformWhite",
+          "persistentUuid": "92420ba6-92cd-4864-b775-33e85573f5aa",
+          "width": 0,
+          "x": 606,
+          "y": 77,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "28734142-e362-4ee3-b7db-934967492ebd",
+          "width": 78,
+          "x": 833,
+          "y": 532,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "e17964f4-95f7-4356-9896-ed652b70dde5",
+          "width": 56,
+          "x": 855,
+          "y": 594,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 154,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "d9c70e82-7645-4244-a978-b67e4ccac723",
+          "width": 77,
+          "x": 572,
+          "y": -2,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 84,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "33c583cf-d341-44d2-879c-23b96518cd1c",
+          "width": 72,
+          "x": 612,
+          "y": 10,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 30,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "493a52d9-282f-4d76-bc89-64163efd0df3",
+          "width": 0,
+          "x": 590,
+          "y": 66,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Gnaste",
+          "persistentUuid": "9120dee0-3779-4e10-9c10-378c3c01f16c",
+          "width": 0,
+          "x": 1172,
+          "y": 587,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 64,
+          "layer": "",
+          "name": "Platform",
+          "persistentUuid": "71fce0eb-f72c-4635-85f5-820378b85f39",
+          "width": 117,
+          "x": 1162,
+          "y": 519,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "bottomMargin": 0,
+          "height": 32,
+          "leftMargin": 0,
+          "name": "NewPanelSprite",
+          "rightMargin": 0,
+          "tags": "",
+          "texture": "",
+          "tiled": true,
+          "topMargin": 0,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 32,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "name": "Character",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "MomentumX",
+              "type": "number",
+              "value": 1
+            },
+            {
+              "folded": true,
+              "name": "MomentumY",
+              "type": "number",
+              "value": 1
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Dynamic",
+              "bullet": true,
+              "fixedRotation": true,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 25,
+              "shapeDimensionB": 32,
+              "shapeOffsetX": -1,
+              "shapeOffsetY": 7,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.2,
+              "restitution": 0,
+              "linearDamping": 0.4,
+              "angularDamping": 0.4,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite",
+                      "points": [
+                        {
+                          "name": "FloorCheck",
+                          "x": 32,
+                          "y": 59
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 15,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 48,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 48,
+                            "y": 59.5
+                          },
+                          {
+                            "x": 15,
+                            "y": 59.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Platform",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.2,
+              "restitution": 0,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            },
+            {
+              "canBeGrabbed": false,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "PlatformWhite",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics2",
+              "type": "Physics2::Physics2Behavior",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "canSleep": true,
+              "shape": "Box",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "polygonOrigin": "Center",
+              "vertices": [],
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 1,
+              "masks": 1
+            },
+            {
+              "canBeGrabbed": false,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite3",
+                      "points": [
+                        {
+                          "name": "PortalPoint",
+                          "x": -20,
+                          "y": 0
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "PortalGun",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite4",
+                      "points": [
+                        {
+                          "name": "Bullet",
+                          "x": 43.5,
+                          "y": 22.5
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 30,
+                        "y": 22.5
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Portal1",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 21.5,
+                            "y": 12
+                          },
+                          {
+                            "x": 43,
+                            "y": 13
+                          },
+                          {
+                            "x": 41,
+                            "y": 45
+                          },
+                          {
+                            "x": 20,
+                            "y": 46.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Portal2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Portal3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Portal3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 18.5,
+                            "y": 15.5
+                          },
+                          {
+                            "x": 42.5,
+                            "y": 14.5
+                          },
+                          {
+                            "x": 41,
+                            "y": 47.5
+                          },
+                          {
+                            "x": 18.5,
+                            "y": 47.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Portal1Block",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Portal1Block",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Portal1Block",
+                      "points": [
+                        {
+                          "name": "Spawn",
+                          "x": -80,
+                          "y": 0
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 10.5
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 28,
+                            "y": 22
+                          },
+                          {
+                            "x": 28.5,
+                            "y": 41.5
+                          },
+                          {
+                            "x": 37.5,
+                            "y": 37.5
+                          },
+                          {
+                            "x": 35,
+                            "y": 20
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Portal2Block",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Portal2Block",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Portal2Block2",
+                      "points": [
+                        {
+                          "name": "Spawn",
+                          "x": -80,
+                          "y": 0
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 31,
+                            "y": 18.5
+                          },
+                          {
+                            "x": 28,
+                            "y": 37.5
+                          },
+                          {
+                            "x": 38.5,
+                            "y": 35.5
+                          },
+                          {
+                            "x": 37,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "FloorCheck",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "CD",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1.5,
+                            "y": 1.5
+                          },
+                          {
+                            "x": 0,
+                            "y": 1.5
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1.5,
+                            "y": 0
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Gnaste",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "FloorCheck",
+                "=",
+                "Character.PointX(\"FloorCheck\")",
+                "=",
+                "Character.PointY(\"FloorCheck\")"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "FloorCheck",
+                "CD",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "FloorCheck",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "d"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::ApplyForce"
+              },
+              "parameters": [
+                "Character",
+                "Physics2",
+                "1",
+                "0",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "FlipX"
+              },
+              "parameters": [
+                "Character",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Physics2",
+                    ">=",
+                    "250"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Physics2",
+                    "=",
+                    "250"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "a"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::ApplyForce"
+              },
+              "parameters": [
+                "Character",
+                "Physics2",
+                "-1",
+                "0",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "FlipX"
+              },
+              "parameters": [
+                "Character",
+                "yes"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Physics2",
+                    "<=",
+                    "-250"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Physics2",
+                    "=",
+                    "-250"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Space"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "FloorCheck",
+                "Platform",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityY"
+              },
+              "parameters": [
+                "Character",
+                "Physics2",
+                "=",
+                "-300"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Space"
+              ]
+            },
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "FloorCheck",
+                "PlatformWhite",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityY"
+              },
+              "parameters": [
+                "Character",
+                "Physics2",
+                "=",
+                "-500"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "PortalGun",
+                "=",
+                "Character.PointX(\"Center\")",
+                "=",
+                "Character.PointY(\"Center\")- 45"
+              ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardPosition"
+              },
+              "parameters": [
+                "PortalGun",
+                "MouseX()",
+                "MouseY()",
+                "0",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Portal1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Portal1",
+                "PortalGun.X(\"Bullet\")",
+                "PortalGun.Y(\"Bullet\")",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Right"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Portal2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Portal2",
+                "PortalGun.X(\"Bullet\")",
+                "PortalGun.Y(\"Bullet\")",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Portal1",
+                "PortalGun.AngleToPosition(PortalGun.X(\"Bullet\"),PortalGun.Y(\"Bullet\"))",
+                "1000",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonReleased"
+              },
+              "parameters": [
+                "",
+                "Right"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AddForceAL"
+              },
+              "parameters": [
+                "Portal2",
+                "PortalGun.AngleToPosition(PortalGun.X(\"Bullet\"),PortalGun.Y(\"Bullet\"))",
+                "1000",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Portal1",
+                "PlatformWhite",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Portal1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Portal1Block",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Portal1Block",
+                "PlatformWhite.X()",
+                "PlatformWhite.Y ()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardAngle"
+              },
+              "parameters": [
+                "Portal1Block",
+                "PlatformWhite.Angle()",
+                "0",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Portal1Block",
+                    "Portal2Block",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Portal2Block",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Portal2",
+                "PlatformWhite",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Portal2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Portal2Block",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Portal2Block",
+                "PlatformWhite.X()",
+                "PlatformWhite.Y ()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "RotateTowardAngle"
+              },
+              "parameters": [
+                "Portal2Block",
+                "PlatformWhite.Angle()",
+                "0",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Portal2Block",
+                    "Portal1Block",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Portal1Block",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Portal2",
+                "Platform",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Portal2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Portal1",
+                "Platform",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Portal1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Character",
+                "PlatformWhite",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Portal1Block",
+                    "PlatformWhite",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "Portal2Block"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Character",
+                    "=",
+                    "Portal2Block.PointX(\"Spawn\")",
+                    "=",
+                    "Portal2Block.PointY(\"Spawn\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Character",
+                    "MomentumX",
+                    "=",
+                    "Character.Physics2::LinearVelocityX()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Character",
+                    "MomentumY",
+                    "=",
+                    "Character.Physics2::LinearVelocityY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityX"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Physics2",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::LinearVelocityY"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Physics2",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::AngularVelocity"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Physics2",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::ApplyPolarForce"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Physics2",
+                    "Portal2Block.Angle()\n",
+                    "Character.Variable(MomentumX)+Character.Variable(MomentumY)/10",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Portal1Block"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "FloorCheck",
+                    "CD",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Portal1Block",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "FloorCheck",
+                    "CD",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "FloorCheck",
+                    "Character.PointX(\"FloorCheck\")",
+                    "Character.PointY(\"FloorCheck\")",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "{\"000kind\":\"GDEVELOP_EventsAndInstructions_CLIPBOARD_KIND-jsBdHbLy912y8Rc\",\"content\":{\"eventsList\":[],\"eventsCount\":0,\"actionsList\":[{\"type\":{\"value\":\"Physics2::ApplyPolarImpulse\"},\"parameters\":[\"Character\",\"Physics2\",\"Character.Variable(MomentumX)+Character.Variable(MomentumY)\",\"Character.Variable(MomentumX)+Character.Variable(MomentumY)\",\"Character.Physics2::Mass()\",\"Character.Physics2::Mass()\"]}],\"actionsCount\":1,\"conditionsList\":[],\"conditionsCount\":0}}\n\n{\"000kind\":\"GDEVELOP_EventsAndInstructions_CLIPBOARD_KIND-jsBdHbLy912y8Rc\",\"content\":{\"eventsList\":[],\"eventsCount\":0,\"actionsList\":[{\"type\":{\"value\":\"Physics2::ApplyPolarImpulse\"},\"parameters\":[\"Character\",\"Physics2\",\"Character.Variable(MomentumX)+Character.Variable(MomentumY)\",\"Character.Variable(MomentumX)+Character.Variable(MomentumY)\",\"Character.Physics2::Mass()\",\"Character.Physics2::Mass()\"]}],\"actionsCount\":1,\"conditionsList\":[],\"conditionsCount\":0}}"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Portal2Block",
+                    "PlatformWhite",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "Portal1Block"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Character",
+                    "=",
+                    "Portal1Block.PointX(\"Spawn\")",
+                    "=",
+                    "Portal1Block.PointY(\"Spawn\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Character",
+                    "MomentumX",
+                    "=",
+                    "Character.Physics2::LinearVelocityX()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Character",
+                    "MomentumY",
+                    "=",
+                    "Character.Physics2::LinearVelocityY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Physics2::ApplyPolarForce"
+                  },
+                  "parameters": [
+                    "Character",
+                    "Physics2",
+                    "Portal1Block.Angle()\n",
+                    "Character.Variable(MomentumX)+Character.Variable(MomentumY)-60",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Portal2Block"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "FloorCheck",
+                    "CD",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "FloorCheck",
+                    "CD",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "FloorCheck",
+                    "Character.PointX(\"FloorCheck\")",
+                    "Character.PointY(\"FloorCheck\")",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Portal2Block",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Character",
+                "Gnaste",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Nivel2\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
