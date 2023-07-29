@@ -225,11 +225,83 @@
         "name": "NewSprite12",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ammo.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Ammo",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Ammo",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Ammo",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ammo",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 2
+                      },
+                      {
+                        "x": 62,
+                        "y": 2
+                      },
+                      {
+                        "x": 62,
+                        "y": 52
+                      },
+                      {
+                        "x": 1,
+                        "y": 52
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "objectsGroups": [],
   "variables": [],
   "layouts": [
@@ -553,6 +625,51 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Ammo",
+          "persistentUuid": "c3050165-edaf-477d-a69a-bd6de273c462",
+          "width": 0,
+          "x": 191,
+          "y": 595,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Ammo",
+          "persistentUuid": "ebecab35-dff8-4645-ab48-4b9c708a2294",
+          "width": 0,
+          "x": 799,
+          "y": 607,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Ammo",
+          "persistentUuid": "ccefa106-8bb8-4863-9e34-d0c19d960d4a",
+          "width": 0,
+          "x": 1041,
+          "y": 584,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -839,7 +956,14 @@
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "Ammo",
+              "type": "number",
+              "value": 4
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -1255,6 +1379,75 @@
         }
       ],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "r"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Nivel2\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Character",
+                "Ammo",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Ammo",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "PortalGun",
+                "Ammo",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
@@ -1677,6 +1870,17 @@
                 "",
                 "Left"
               ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "PortalGun",
+                "Ammo",
+                ">",
+                "0"
+              ]
             }
           ],
           "actions": [
@@ -1699,6 +1903,17 @@
                 "PortalGun.X(\"Bullet\")",
                 "PortalGun.Y(\"Bullet\")",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "PortalGun",
+                "Ammo",
+                "-",
+                "1"
               ]
             }
           ]
@@ -1714,6 +1929,17 @@
                 "",
                 "Right"
               ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "PortalGun",
+                "Ammo",
+                ">",
+                "0"
+              ]
             }
           ],
           "actions": [
@@ -1736,6 +1962,17 @@
                 "PortalGun.X(\"Bullet\")",
                 "PortalGun.Y(\"Bullet\")",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "PortalGun",
+                "Ammo",
+                "-",
+                "1"
               ]
             }
           ]
@@ -2471,7 +2708,14 @@
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Ammo",
+          "type": "number",
+          "value": 2
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -2718,6 +2962,66 @@
           "x": 1162,
           "y": 519,
           "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Ammo",
+          "persistentUuid": "783a99d1-aa7c-4e3a-9a6f-cb29124db1c5",
+          "width": 0,
+          "x": 191,
+          "y": 603,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Ammo",
+          "persistentUuid": "dbb0b73b-b4ee-4737-a68d-75d20289df75",
+          "width": 0,
+          "x": 441,
+          "y": 603,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Ammo",
+          "persistentUuid": "9ea000ce-8541-4086-ab8c-6d506f66865b",
+          "width": 0,
+          "x": 624,
+          "y": 598,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Ammo",
+          "persistentUuid": "4588d961-c767-47e2-9b30-ff2c893a672b",
+          "width": 0,
+          "x": 729,
+          "y": 598,
+          "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3007,7 +3311,14 @@
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "Ammo",
+              "type": "number",
+              "value": 2
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -3423,6 +3734,70 @@
         }
       ],
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Character",
+                "Ammo",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Ammo",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "PortalGun",
+                "Ammo",
+                "+",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "r"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Nivel\""
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
@@ -3845,6 +4220,17 @@
                 "",
                 "Left"
               ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "PortalGun",
+                "Ammo",
+                ">",
+                "0"
+              ]
             }
           ],
           "actions": [
@@ -3867,6 +4253,17 @@
                 "PortalGun.X(\"Bullet\")",
                 "PortalGun.Y(\"Bullet\")",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "PortalGun",
+                "Ammo",
+                "-",
+                "1"
               ]
             }
           ]
@@ -3882,6 +4279,17 @@
                 "",
                 "Right"
               ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "PortalGun",
+                "Ammo",
+                ">",
+                "0"
+              ]
             }
           ],
           "actions": [
@@ -3904,6 +4312,17 @@
                 "PortalGun.X(\"Bullet\")",
                 "PortalGun.Y(\"Bullet\")",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "PortalGun",
+                "Ammo",
+                "-",
+                "1"
               ]
             }
           ]
