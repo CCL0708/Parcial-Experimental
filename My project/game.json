@@ -113,7 +113,7 @@
         "alwaysLoaded": false,
         "file": "assets/Portal3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Portal3.png\"}",
         "name": "Portal3",
         "smoothed": true,
         "userAdded": false
@@ -207,6 +207,24 @@
         "name": "NewSprite10",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite12",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -235,7 +253,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8416428125373103,
+        "zoomFactor": 0.7876290101673755,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -388,7 +406,7 @@
           "layer": "",
           "name": "Platform",
           "persistentUuid": "28734142-e362-4ee3-b7db-934967492ebd",
-          "width": 151,
+          "width": 137,
           "x": 17,
           "y": 400,
           "zOrder": 17,
@@ -420,7 +438,7 @@
           "layer": "",
           "name": "Platform",
           "persistentUuid": "33c583cf-d341-44d2-879c-23b96518cd1c",
-          "width": 72,
+          "width": 58,
           "x": 97,
           "y": 280,
           "zOrder": 19,
@@ -506,15 +524,15 @@
           "initialVariables": []
         },
         {
-          "angle": 176,
+          "angle": 180,
           "customSize": false,
           "height": 0,
           "layer": "",
           "name": "PlatformWhite",
           "persistentUuid": "c267b289-66a6-4f61-a0ba-f86d935c9e30",
           "width": 0,
-          "x": 574,
-          "y": 581,
+          "x": 571,
+          "y": 582,
           "zOrder": -6,
           "numberProperties": [],
           "stringProperties": [],
@@ -556,6 +574,7 @@
           "behaviors": []
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Character",
           "tags": "",
@@ -660,6 +679,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform",
           "tags": "",
@@ -733,6 +753,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PlatformWhite",
           "tags": "",
@@ -812,6 +833,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PortalGun",
           "tags": "",
@@ -860,6 +882,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Portal1",
           "tags": "",
@@ -896,20 +919,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 25,
-                            "y": 12.5
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 38,
-                            "y": 13
+                            "x": 12,
+                            "y": 0
                           },
                           {
-                            "x": 37.5,
-                            "y": 43
+                            "x": 12.5,
+                            "y": 29.5
                           },
                           {
-                            "x": 24,
-                            "y": 43
+                            "x": 0,
+                            "y": 29
                           }
                         ]
                       ]
@@ -921,6 +944,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Portal2",
           "tags": "",
@@ -957,20 +981,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 20,
-                            "y": 17
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 39,
-                            "y": 16
+                            "x": 17,
+                            "y": 0
                           },
                           {
-                            "x": 39,
-                            "y": 45.5
+                            "x": 19,
+                            "y": 27.5
                           },
                           {
-                            "x": 22.5,
-                            "y": 45
+                            "x": 0,
+                            "y": 26
                           }
                         ]
                       ]
@@ -982,6 +1006,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Portal1Block",
           "tags": "",
@@ -1006,7 +1031,7 @@
                       "points": [
                         {
                           "name": "Spawn",
-                          "x": -80,
+                          "x": -50,
                           "y": 32
                         }
                       ],
@@ -1049,6 +1074,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Portal2Block",
           "tags": "",
@@ -1073,7 +1099,7 @@
                       "points": [
                         {
                           "name": "Spawn",
-                          "x": -80,
+                          "x": -50,
                           "y": 32
                         }
                       ],
@@ -1116,6 +1142,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "FloorCheck",
           "tags": "",
@@ -1184,6 +1211,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Gnaste",
           "tags": "",
@@ -1337,35 +1365,33 @@
                 ""
               ]
             }
-          ],
-          "events": [
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Physics2::LinearVelocityX"
-                  },
-                  "parameters": [
-                    "Character",
-                    "Physics2",
-                    ">=",
-                    "150"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Physics2::LinearVelocityX"
-                  },
-                  "parameters": [
-                    "Character",
-                    "Physics2",
-                    "=",
-                    "150"
-                  ]
-                }
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "Character",
+                "Physics2",
+                ">",
+                "250"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "Character",
+                "Physics2",
+                "=",
+                "250"
               ]
             }
           ]
@@ -1406,35 +1432,91 @@
                 "yes"
               ]
             }
-          ],
-          "events": [
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Physics2::LinearVelocityX"
-                  },
-                  "parameters": [
-                    "Character",
-                    "Physics2",
-                    "<=",
-                    "-150"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Physics2::LinearVelocityX"
-                  },
-                  "parameters": [
-                    "Character",
-                    "Physics2",
-                    "=",
-                    "-150"
-                  ]
-                }
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "Character",
+                "Physics2",
+                "<",
+                "-250"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "Character",
+                "Physics2",
+                "=",
+                "-250"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityY"
+              },
+              "parameters": [
+                "Character",
+                "Physics2",
+                ">",
+                "350"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityY"
+              },
+              "parameters": [
+                "Character",
+                "Physics2",
+                "=",
+                "350"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityY"
+              },
+              "parameters": [
+                "Character",
+                "Physics2",
+                "<",
+                "-350"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityY"
+              },
+              "parameters": [
+                "Character",
+                "Physics2",
+                "=",
+                "-350"
               ]
             }
           ]
@@ -1579,7 +1661,7 @@
                 "Character",
                 "Physics2",
                 "=",
-                "-500"
+                "-300"
               ]
             }
           ]
@@ -2066,7 +2148,7 @@
                     "Character",
                     "Physics2",
                     "Portal2Block.Angle()-180\n",
-                    "Character.Variable(MomentumX)+Character.Variable(MomentumY)/10",
+                    "Character.Variable(MomentumX)+Character.Variable(MomentumY)",
                     "",
                     ""
                   ]
@@ -2209,7 +2291,7 @@
                     "Character",
                     "Physics2",
                     "Portal1Block.Angle()-180\n",
-                    "Character.Variable(MomentumX)+Character.Variable(MomentumY)-60",
+                    "Character.Variable(MomentumX)+Character.Variable(MomentumY)",
                     "",
                     ""
                   ]
@@ -2385,7 +2467,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.212164197217367,
+        "zoomFactor": 1.026942587498107,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2660,6 +2742,7 @@
           "behaviors": []
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Character",
           "tags": "",
@@ -2764,6 +2847,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Platform",
           "tags": "",
@@ -2796,10 +2880,10 @@
               "masks": 1
             },
             {
-              "canBeGrabbed": false,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -2837,6 +2921,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PlatformWhite",
           "tags": "",
@@ -2869,10 +2954,10 @@
               "masks": 1
             },
             {
-              "canBeGrabbed": false,
               "name": "Platform",
-              "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": false,
+              "platformType": "NormalPlatform",
               "yGrabOffset": 0
             }
           ],
@@ -2916,6 +3001,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "PortalGun",
           "tags": "",
@@ -2940,7 +3026,7 @@
                       "points": [
                         {
                           "name": "Bullet",
-                          "x": 49,
+                          "x": 63.5,
                           "y": 21.5
                         }
                       ],
@@ -2964,6 +3050,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Portal1",
           "tags": "",
@@ -2984,7 +3071,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite5",
+                      "image": "NewSprite12",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3000,20 +3087,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 21.5,
-                            "y": 12
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 43,
-                            "y": 13
+                            "x": 21,
+                            "y": 1
                           },
                           {
-                            "x": 41,
-                            "y": 45
+                            "x": 22,
+                            "y": 31.5
                           },
                           {
-                            "x": 20,
-                            "y": 46.5
+                            "x": 0,
+                            "y": 30
                           }
                         ]
                       ]
@@ -3025,6 +3112,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Portal2",
           "tags": "",
@@ -3061,20 +3149,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 18.5,
-                            "y": 15.5
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 42.5,
-                            "y": 14.5
-                          },
-                          {
-                            "x": 41,
-                            "y": 47.5
+                            "x": 18,
+                            "y": 0
                           },
                           {
                             "x": 18.5,
-                            "y": 47.5
+                            "y": 28
+                          },
+                          {
+                            "x": 0,
+                            "y": 26
                           }
                         ]
                       ]
@@ -3086,6 +3174,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Portal1Block",
           "tags": "",
@@ -3110,8 +3199,8 @@
                       "points": [
                         {
                           "name": "Spawn",
-                          "x": -80,
-                          "y": 0
+                          "x": -40,
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -3153,6 +3242,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Portal2Block",
           "tags": "",
@@ -3177,8 +3267,8 @@
                       "points": [
                         {
                           "name": "Spawn",
-                          "x": -80,
-                          "y": 0
+                          "x": -40,
+                          "y": 32
                         }
                       ],
                       "originPoint": {
@@ -3220,6 +3310,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "FloorCheck",
           "tags": "",
@@ -3288,6 +3379,7 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Gnaste",
           "tags": "",
@@ -3441,35 +3533,33 @@
                 ""
               ]
             }
-          ],
-          "events": [
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Physics2::LinearVelocityX"
-                  },
-                  "parameters": [
-                    "Character",
-                    "Physics2",
-                    ">=",
-                    "250"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Physics2::LinearVelocityX"
-                  },
-                  "parameters": [
-                    "Character",
-                    "Physics2",
-                    "=",
-                    "250"
-                  ]
-                }
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "Character",
+                "Physics2",
+                ">",
+                "250"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "Character",
+                "Physics2",
+                "=",
+                "250"
               ]
             }
           ]
@@ -3510,35 +3600,91 @@
                 "yes"
               ]
             }
-          ],
-          "events": [
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Physics2::LinearVelocityX"
-                  },
-                  "parameters": [
-                    "Character",
-                    "Physics2",
-                    "<=",
-                    "-250"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Physics2::LinearVelocityX"
-                  },
-                  "parameters": [
-                    "Character",
-                    "Physics2",
-                    "=",
-                    "-250"
-                  ]
-                }
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "Character",
+                "Physics2",
+                "<",
+                "-250"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityX"
+              },
+              "parameters": [
+                "Character",
+                "Physics2",
+                "=",
+                "-250"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityY"
+              },
+              "parameters": [
+                "Character",
+                "Physics2",
+                ">",
+                "350"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityY"
+              },
+              "parameters": [
+                "Character",
+                "Physics2",
+                "=",
+                "350"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityY"
+              },
+              "parameters": [
+                "Character",
+                "Physics2",
+                "<",
+                "-350"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics2::LinearVelocityY"
+              },
+              "parameters": [
+                "Character",
+                "Physics2",
+                "=",
+                "-350"
               ]
             }
           ]
@@ -3683,7 +3829,7 @@
                 "Character",
                 "Physics2",
                 "=",
-                "-500"
+                "-300"
               ]
             }
           ]
@@ -4170,7 +4316,7 @@
                     "Character",
                     "Physics2",
                     "Portal2Block.Angle()-180\n",
-                    "Character.Variable(MomentumX)+Character.Variable(MomentumY)/10",
+                    "Character.Variable(MomentumX)+Character.Variable(MomentumY)",
                     "",
                     ""
                   ]
@@ -4313,7 +4459,7 @@
                     "Character",
                     "Physics2",
                     "Portal1Block.Angle()-180\n",
-                    "Character.Variable(MomentumX)+Character.Variable(MomentumY)-60",
+                    "Character.Variable(MomentumX)+Character.Variable(MomentumY)",
                     "",
                     ""
                   ]
@@ -4573,6 +4719,7 @@
       ],
       "objects": [
         {
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "NewSprite",
           "tags": "",
