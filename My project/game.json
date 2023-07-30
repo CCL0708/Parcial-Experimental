@@ -234,6 +234,24 @@
         "name": "Ammo",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite13",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite14",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -291,6 +309,178 @@
                       {
                         "x": 1,
                         "y": 52
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Enemy2",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": true,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 23,
+          "shapeDimensionB": 55,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 4,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 8,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite14",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 18,
+                        "y": 12
+                      },
+                      {
+                        "x": 43,
+                        "y": 12
+                      },
+                      {
+                        "x": 43,
+                        "y": 64
+                      },
+                      {
+                        "x": 18,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Enemy1",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "bodyType": "Dynamic",
+          "bullet": false,
+          "fixedRotation": true,
+          "canSleep": true,
+          "shape": "Box",
+          "shapeDimensionA": 16,
+          "shapeDimensionB": 46,
+          "shapeOffsetX": 0,
+          "shapeOffsetY": 0,
+          "polygonOrigin": "Center",
+          "vertices": [],
+          "density": 8,
+          "friction": 0.3,
+          "restitution": 0.1,
+          "linearDamping": 0.1,
+          "angularDamping": 0.1,
+          "gravityScale": 1,
+          "layers": 1,
+          "masks": 1
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite13",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 22,
+                        "y": 9
+                      },
+                      {
+                        "x": 46,
+                        "y": 9
+                      },
+                      {
+                        "x": 46,
+                        "y": 55
+                      },
+                      {
+                        "x": 22,
+                        "y": 55
                       }
                     ]
                   ]
@@ -667,6 +857,36 @@
           "x": 1041,
           "y": 584,
           "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Enemy1",
+          "persistentUuid": "fb815927-1df7-46f9-a401-59a6225e1d2a",
+          "width": 0,
+          "x": 566,
+          "y": 410,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Enemy2",
+          "persistentUuid": "ecdd7e25-60bb-43c9-9c5e-36ea283b322b",
+          "width": 0,
+          "x": 1024,
+          "y": 207,
+          "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1400,11 +1620,12 @@
           "actions": [
             {
               "type": {
-                "value": "PushScene"
+                "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"Nivel2\""
+                "\"Nivel2\"",
+                ""
               ]
             }
           ]
@@ -2319,7 +2540,7 @@
                     "=",
                     "Portal2Block.PointX(\"Spawn\")",
                     "=",
-                    "Portal2Block.PointY(\"Spawn\")"
+                    "Portal2Block.PointY(\"Spawn\")-32"
                   ]
                 },
                 {
@@ -2447,19 +2668,21 @@
                     ""
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "{\"000kind\":\"GDEVELOP_EventsAndInstructions_CLIPBOARD_KIND-jsBdHbLy912y8Rc\",\"content\":{\"eventsList\":[],\"eventsCount\":0,\"actionsList\":[{\"type\":{\"value\":\"Physics2::ApplyPolarImpulse\"},\"parameters\":[\"Character\",\"Physics2\",\"Character.Variable(MomentumX)+Character.Variable(MomentumY)\",\"Character.Variable(MomentumX)+Character.Variable(MomentumY)\",\"Character.Physics2::Mass()\",\"Character.Physics2::Mass()\"]}],\"actionsCount\":1,\"conditionsList\":[],\"conditionsCount\":0}}\n\n{\"000kind\":\"GDEVELOP_EventsAndInstructions_CLIPBOARD_KIND-jsBdHbLy912y8Rc\",\"content\":{\"eventsList\":[],\"eventsCount\":0,\"actionsList\":[{\"type\":{\"value\":\"Physics2::ApplyPolarImpulse\"},\"parameters\":[\"Character\",\"Physics2\",\"Character.Variable(MomentumX)+Character.Variable(MomentumY)\",\"Character.Variable(MomentumX)+Character.Variable(MomentumY)\",\"Character.Physics2::Mass()\",\"Character.Physics2::Mass()\"]}],\"actionsCount\":1,\"conditionsList\":[],\"conditionsCount\":0}}"
+                }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "{\"000kind\":\"GDEVELOP_EventsAndInstructions_CLIPBOARD_KIND-jsBdHbLy912y8Rc\",\"content\":{\"eventsList\":[],\"eventsCount\":0,\"actionsList\":[{\"type\":{\"value\":\"Physics2::ApplyPolarImpulse\"},\"parameters\":[\"Character\",\"Physics2\",\"Character.Variable(MomentumX)+Character.Variable(MomentumY)\",\"Character.Variable(MomentumX)+Character.Variable(MomentumY)\",\"Character.Physics2::Mass()\",\"Character.Physics2::Mass()\"]}],\"actionsCount\":1,\"conditionsList\":[],\"conditionsCount\":0}}\n\n{\"000kind\":\"GDEVELOP_EventsAndInstructions_CLIPBOARD_KIND-jsBdHbLy912y8Rc\",\"content\":{\"eventsList\":[],\"eventsCount\":0,\"actionsList\":[{\"type\":{\"value\":\"Physics2::ApplyPolarImpulse\"},\"parameters\":[\"Character\",\"Physics2\",\"Character.Variable(MomentumX)+Character.Variable(MomentumY)\",\"Character.Variable(MomentumX)+Character.Variable(MomentumY)\",\"Character.Physics2::Mass()\",\"Character.Physics2::Mass()\"]}],\"actionsCount\":1,\"conditionsList\":[],\"conditionsCount\":0}}"
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -2495,7 +2718,7 @@
                     "=",
                     "Portal1Block.PointX(\"Spawn\")",
                     "=",
-                    "Portal1Block.PointY(\"Spawn\")"
+                    "Portal1Block.PointY(\"Spawn\")-32"
                   ]
                 },
                 {
@@ -2622,6 +2845,354 @@
               ]
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Enemies",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Enemy1",
+                    "Character",
+                    "300",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::ApplyForceTowardPosition"
+                  },
+                  "parameters": [
+                    "Enemy1",
+                    "Physics2",
+                    "10",
+                    "Character.X()",
+                    "Enemy1.Y()",
+                    "Enemy1.PointX(\"Centre\")",
+                    "Enemy1.PointY(\"Centre\")"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Enemy1",
+                        "Physics2",
+                        "<",
+                        "-150"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Enemy1",
+                        "Physics2",
+                        "=",
+                        "-150"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Enemy1",
+                        "Physics2",
+                        ">",
+                        "150"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Enemy1",
+                        "Physics2",
+                        "=",
+                        "150"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Enemy1",
+                    "Portal1",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Enemy1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Portal1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Enemy1",
+                    "Character",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Nivel2\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Enemy2",
+                    "Character",
+                    "300",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::ApplyForceTowardPosition"
+                  },
+                  "parameters": [
+                    "Enemy2",
+                    "Physics2",
+                    "10",
+                    "Character.X()",
+                    "Enemy2.Y()",
+                    "Enemy2.PointX(\"Centre\")",
+                    "Enemy2.PointY(\"Centre\")\n"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Enemy2",
+                        "Physics2",
+                        "<",
+                        "-150"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Enemy2",
+                        "Physics2",
+                        "=",
+                        "-150"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Enemy2",
+                        "Physics2",
+                        ">",
+                        "150"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Enemy2",
+                        "Physics2",
+                        "=",
+                        "150"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Enemy2",
+                    "Portal2",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Enemy2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Portal2",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Enemy2",
+                    "Character",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Nivel2\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -2704,7 +3275,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.026942587498107,
+        "zoomFactor": 0.9296875000000001,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3022,6 +3593,21 @@
           "x": 729,
           "y": 598,
           "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Enemy2",
+          "persistentUuid": "47f0ceff-7809-4c29-a14b-43b8cb1058e9",
+          "width": 0,
+          "x": 561,
+          "y": 592,
+          "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3789,11 +4375,12 @@
           "actions": [
             {
               "type": {
-                "value": "PushScene"
+                "value": "Scene"
               },
               "parameters": [
                 "",
-                "\"Nivel\""
+                "\"Nivel\"",
+                ""
               ]
             }
           ]
@@ -4669,7 +5256,7 @@
                     "=",
                     "Portal2Block.PointX(\"Spawn\")",
                     "=",
-                    "Portal2Block.PointY(\"Spawn\")"
+                    "Portal2Block.PointY(\"Spawn\")-32"
                   ]
                 },
                 {
@@ -4845,7 +5432,7 @@
                     "=",
                     "Portal1Block.PointX(\"Spawn\")",
                     "=",
-                    "Portal1Block.PointY(\"Spawn\")"
+                    "Portal1Block.PointY(\"Spawn\")-32"
                   ]
                 },
                 {
@@ -4972,6 +5559,349 @@
               ]
             }
           ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Enemies",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Enemy1",
+                    "Character",
+                    "300",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::ApplyForceTowardPosition"
+                  },
+                  "parameters": [
+                    "Enemy1",
+                    "Physics2",
+                    "10",
+                    "Character.X()",
+                    "Character.Y()",
+                    "Enemy1.PointX(\"Centre\")",
+                    "Enemy1.PointY(\"Centre\")"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Enemy1",
+                        "Physics2",
+                        "<",
+                        "-150"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Enemy1",
+                        "Physics2",
+                        "=",
+                        "-150"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Enemy1",
+                        "Physics2",
+                        ">",
+                        "150"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Enemy1",
+                        "Physics2",
+                        "=",
+                        "150"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Enemy1",
+                    "Portal1",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Enemy1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Portal1",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Enemy1",
+                    "Character",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Nivel\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Enemy2",
+                    "Character",
+                    "300",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics2::ApplyForceTowardPosition"
+                  },
+                  "parameters": [
+                    "Enemy2",
+                    "Physics2",
+                    "10",
+                    "Character.X()",
+                    "Character.Y()",
+                    "Enemy2.PointX(\"Centre\")",
+                    "Enemy2.PointY(\"Centre\")\n"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Enemy2",
+                        "Physics2",
+                        "<",
+                        "-150"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Enemy2",
+                        "Physics2",
+                        "=",
+                        "-150"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Enemy2",
+                        "Physics2",
+                        ">",
+                        "150"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::LinearVelocityX"
+                      },
+                      "parameters": [
+                        "Enemy2",
+                        "Physics2",
+                        "=",
+                        "150"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Enemy2",
+                    "Portal2",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Enemy2",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Portal2",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Enemy2",
+                    "Character",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Nivel\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
